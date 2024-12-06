@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalendar</title>
+    <script>
+      function displayDate() {
+        let date = new Date();
+        document.getElementById("date").innerHTML = date.toDateString();
+      }
+    </script>
+  </head>
+  <body onload="displayDate()">
+    <header>
+      <h1>Kalendar</h1>
+    </header>
+    <section>
+      <p id="date"></p>
+    </section>
+  </body>
+</html>

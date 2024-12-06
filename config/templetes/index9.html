@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasm Galereyasi</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3e3e3;
+        }
+        header {
+            background-color: #2a9d8f;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery-item {
+            position: relative;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .caption {
+            padding: 10px;
+            text-align: center;
+            background-color: #f7f7f7;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Chiroyli Rasm Galereyasi</h1>
+</header>
+
+<section class="gallery">
+    <!-- Rasm 1 -->
+    <div class="gallery-item">
+        <a href="https://example.com/rasm1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUmsbx4V9M9PjL29iwFXnndy3j7yiaTw76Kg&s" alt="Rasm 1">
+            <div class="caption">
+                <p>Tabiat manzarasi, Rasm 1</p>
+            </div>
+        </a>
+    </div>
+    <!-- Rasm 2 -->
+    <div class="gallery-item">
+        <a href="https://example.com/rasm2">
+            <img src="https://i.okcdn.ru/i?r=BDHsYJQ9nKW8WSbKUwTOyh4oUzKulMM4sL9nsB895Ni7UG-WyahN6cDFFIXZpUjOoIY" alt="Rasm 2">
+            <div class="caption">
+                <p>Shahar manzarasi, Rasm 2</p>
+            </div>
+        </a>
+    </div>
+    <!-- Rasm 3 -->
+    <div class="gallery-item">
+        <a href="https://example.com/rasm3">
+            <img src="https://static2.tgstat.ru/channels/_0/34/34bcda2063618b1fcc583a6ed15b4bc6.jpg" alt="Rasm 3">
+            <div class="caption">
+                <p>Sayohat rasm, Rasm 3</p>
+            </div>
+        </a>
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 ta Chiroyli Rasm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+        .image-card {
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+        .image-card:hover {
+            transform: scale(1.05);
+        }
+        .image-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .caption {
+            padding: 15px;
+            text-align: center;
+            font-size: 16px;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>3 ta Chiroyli Rasm</h1>
+</header>
+
+<section class="gallery">
+    <!-- Rasm 1 -->
+    <div class="image-card">
+        <a href="https://example.com/rasm1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUmsbx4V9M9PjL29iwFXnndy3j7yiaTw76Kg&s" alt="Rasm 1">
+            <div class="caption">
+                <p>Bu birinchi rasm, tabiat manzarasi. <br> <strong>URL:</strong> https://example.com/rasm1</p>
+            </div>
+        </a>
+    </div>
+    <!-- Rasm 2 -->
+    <div class="image-card">
+        <a href="https://example.com/rasm2">
+            <img src="https://i.okcdn.ru/i?r=BDHsYJQ9nKW8WSbKUwTOyh4oUzKulMM4sL9nsB895Ni7UG-WyahN6cDFFIXZpUjOoIY" alt="Rasm 2">
+            <div class="caption">
+                <p>Bu ikkinchi rasm, shahar manzarasi. <br> <strong>URL:</strong> https://example.com/rasm2</p>
+            </div>
+        </a>
+    </div>
+    <!-- Rasm 3 -->
+    <div class="image-card">
+        <a href="https://example.com/rasm3">
+            <img src="https://static2.tgstat.ru/channels/_0/34/34bcda2063618b1fcc583a6ed15b4bc6.jpg" alt="Rasm 3">
+            <div class="caption">
+                <p>Uchinchi rasm, sayohat paytida olingan. <br> <strong>URL:</strong> https://example.com/rasm3</p>
+            </div>
+        </a>
+    </div>
+</section>
+
+</body>
+</html>
